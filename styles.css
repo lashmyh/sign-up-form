@@ -16,7 +16,7 @@ body {
 }
 
 aside {
-    background-image: url(/sidebar-image.jpg);
+    background-image: url(sidebar-image.jpg);
     background-size: cover;
     width: 40vw;
     height: 100vh;
