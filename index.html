@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>   
+</head>
+<body>
+    <aside>
+        <div class="logo"><img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" width="90px" alt="Odin logo">
+            Odin</div>
+        <div class="credit">Photo by <a href="https://unsplash.com/@alkomosh">Alexander Kovalev on Unplash</a> </div>
+    </aside>
+    <div class="container">
+        <div class="header">
+            <p id="header1">
+                This is not a real online service! You know you need
+                something like this in your life to help you realise your deepest dreams.
+            </p>
+            <p id="header2">Sign up now to get started.</p>
+        </div>
+        <form>
+            <ul>
+                <section>
+                    <li>
+                        <p><label for="forename">First name</label></p>
+                        <p><input type="text" id="forename" name="forename" required></p>
+                    </li>
+                    <li>
+                        <p><label for="phone">Phone Number</label></p>
+                        <p><input type="tel" id="phone" name="phone" pattern="^0\d{10}$"  required></p>
+                    </li>
+                    <li>
+                        <p><label for="email">Email</label></p>
+                        <p><input type="email" id="email" name="email" required></p>
+                    </li>
+                </section>
+                <section>
+                    <li>
+                        <p><label for="lastname">Last name</label></p>
+                        <p><input type="text" id="lastname" name="lastname" required></p>
+                    </li>
+                    <li>
+                        <p><label for="password">Password</label></p>
+                        <p><input type="password" id="password" name="password" minlength="6" required></p>
+                    </li>
+                    <li>
+                        <p><label for="passconfirm">Confirm password</label></p>
+                        <input type="password" id="passconfirm" name="passconfirm" minlength="6" required>
+                    </li>
+                </section>
+            </ul>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="/">Log in</a></p>
+    
+</body>
+</html>

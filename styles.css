@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Norse;
+    src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: white;
+}
+body {
+    display: flex;
+    flex: 1;
+    background-color: rgb(3, 11, 17);
+}
+
+aside {
+    background-image: url(/sidebar-image.jpg);
+    background-size: cover;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Norse", sans-serif;
+    color: white;
+    font-size: 5rem;
+    margin-top: 50%;
+}
+
+.credit {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: auto;
+    
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+
+}
+
+.header {
+    font-weight: 900;
+    font-size: 1.3rem;
+    max-width: 80%;
+}
+
+#header2 {
+    padding-top: 1rem;
+    color: powderblue;
+    
+}
+
+.header p {
+    padding: 0.5rem 0;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items:normal;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(22, 23, 30);
+    border: 0.1rem solid rgb(96, 124, 150);
+}
+
+ul section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+li {
+    margin: 0 0.3rem;
+}
+
+.legend {
+    padding-bottom: 1rem;
+}
+
+input {
+    color: black;
+    width: 17rem;
+    height: 3rem;
+    border: 1px solid grey;
+    margin: 0.5rem 0 1rem 0;
+    background-color: rgb(146, 165, 184);
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+
+}
+
+
+input:focus {
+    /* border-color: aliceblue; */
+    border-left: 10px solid plum;
+
+}
+
+input:valid {
+    border: 0.2rem solid rgb(18, 186, 18);
+}
+
+
+label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(158, 162, 165);
+    letter-spacing: 0.1rem;
+    
+}
+
+
+button {
+    background-color: rgb(96, 124, 150);
+    height: 3rem;
+    width: 10rem;
+    margin: 2rem 0.5rem;
+    border-radius: 0.5em;
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+
+    
+    
+
+}
+
+button:hover {
+    background-color: powderblue;
+    box-shadow: 0 12px 16px 0 rgba(190, 218, 239, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: rgb(3, 11, 17);;
+}
+
+.container a{
+    color: plum;
+}
+
